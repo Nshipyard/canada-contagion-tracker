@@ -99,6 +99,18 @@ export function Nav() {
             <a href="https://canada.nshipyard.com" className="text-[16px] font-medium">
               ← {t.nav.back}
             </a>
+            <div className="flex items-center gap-1 self-start rounded-full border border-line px-1 py-1 text-[14px] font-medium">
+              {(["en", "fr"] as const).map((l) => (
+                <button
+                  key={l}
+                  onClick={() => setLang(l)}
+                  className={`rounded-full px-3 py-1.5 uppercase ${lang === l ? "bg-ink text-white" : "text-ink/60 hover:text-ink"}`}
+                  aria-pressed={lang === l}
+                >
+                  {l}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
       )}
