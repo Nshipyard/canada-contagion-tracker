@@ -1,0 +1,1094 @@
+{
+ "meta": {
+  "title": "Canada Housing Contagion Tracker",
+  "sources": [
+   "Statistics Canada table 18-10-0205-01, New Housing Price Index, monthly 1981-2026 (Dec 2016=100)",
+   "Statistics Canada table 98-10-0003-01, 2021 Census populations by CMA",
+   "Distances: great-circle km from Union Station, Toronto, via OpenStreetMap Nominatim coordinates"
+  ],
+  "gaps": [
+   "Resale price levels are proprietary (Teranet, CREA) and are not used; no price-to-income LEVELS are computed.",
+   "Census median dwelling values by CMA are not available in an accessible StatCan table; NHPI (new housing only) is the price series.",
+   "Barrie and Brantford CMAs are not covered by NHPI; they appear with population and distance only.",
+   "No annual CMA household income series is used; the tracker measures relative price movement, the direct test of the wave thesis."
+  ],
+  "built": "2026-10-09"
+ },
+ "cities": [
+  {
+   "id": "toronto",
+   "name": "Toronto",
+   "cma": "Toronto, Ontario",
+   "distance_km": 0.0,
+   "population_2021": 6202225,
+   "nhpi_coverage": true
+  },
+  {
+   "id": "oshawa",
+   "name": "Oshawa",
+   "cma": "Oshawa, Ontario",
+   "distance_km": 50.1,
+   "population_2021": 415311,
+   "nhpi_coverage": true
+  },
+  {
+   "id": "hamilton",
+   "name": "Hamilton",
+   "cma": "Hamilton, Ontario",
+   "distance_km": 58.7,
+   "population_2021": 785184,
+   "nhpi_coverage": true
+  },
+  {
+   "id": "guelph",
+   "name": "Guelph",
+   "cma": "Guelph, Ontario",
+   "distance_km": 70.9,
+   "population_2021": 165588,
+   "nhpi_coverage": true
+  },
+  {
+   "id": "kitchener-waterloo",
+   "name": "Kitchener-Waterloo",
+   "cma": "Kitchener-Cambridge-Waterloo, Ontario",
+   "distance_km": 86.6,
+   "population_2021": 575847,
+   "nhpi_coverage": true
+  },
+  {
+   "id": "barrie",
+   "name": "Barrie",
+   "cma": "Barrie, Ontario",
+   "distance_km": 86.4,
+   "population_2021": 212856,
+   "nhpi_coverage": false
+  },
+  {
+   "id": "brantford",
+   "name": "Brantford",
+   "cma": "Brantford, Ontario",
+   "distance_km": 90.7,
+   "population_2021": 144162,
+   "nhpi_coverage": false
+  }
+ ],
+ "series": {
+  "Toronto": [
+   {
+    "year": 1981,
+    "index_2017": 30.3,
+    "toronto_index_2017": 30.3,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 1982,
+    "index_2017": 30.7,
+    "toronto_index_2017": 30.7,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 1983,
+    "index_2017": 29.5,
+    "toronto_index_2017": 29.5,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 1984,
+    "index_2017": 29.6,
+    "toronto_index_2017": 29.6,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 1985,
+    "index_2017": 30.4,
+    "toronto_index_2017": 30.4,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 1986,
+    "index_2017": 35.5,
+    "toronto_index_2017": 35.5,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 1987,
+    "index_2017": 44.8,
+    "toronto_index_2017": 44.8,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 1988,
+    "index_2017": 52.3,
+    "toronto_index_2017": 52.3,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 1989,
+    "index_2017": 63.9,
+    "toronto_index_2017": 63.9,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 1990,
+    "index_2017": 61.5,
+    "toronto_index_2017": 61.5,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 1991,
+    "index_2017": 52.2,
+    "toronto_index_2017": 52.2,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 1992,
+    "index_2017": 49.9,
+    "toronto_index_2017": 49.9,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 1993,
+    "index_2017": 48.7,
+    "toronto_index_2017": 48.7,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 1994,
+    "index_2017": 48.6,
+    "toronto_index_2017": 48.6,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 1995,
+    "index_2017": 48.9,
+    "toronto_index_2017": 48.9,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 1996,
+    "index_2017": 48.3,
+    "toronto_index_2017": 48.3,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 1997,
+    "index_2017": 49.4,
+    "toronto_index_2017": 49.4,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 1998,
+    "index_2017": 50.9,
+    "toronto_index_2017": 50.9,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 1999,
+    "index_2017": 51.8,
+    "toronto_index_2017": 51.8,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2000,
+    "index_2017": 53.2,
+    "toronto_index_2017": 53.2,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2001,
+    "index_2017": 54.5,
+    "toronto_index_2017": 54.5,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2002,
+    "index_2017": 56.3,
+    "toronto_index_2017": 56.3,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2003,
+    "index_2017": 59.0,
+    "toronto_index_2017": 59.0,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2004,
+    "index_2017": 62.5,
+    "toronto_index_2017": 62.5,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2005,
+    "index_2017": 65.3,
+    "toronto_index_2017": 65.3,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2006,
+    "index_2017": 67.8,
+    "toronto_index_2017": 67.8,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2007,
+    "index_2017": 69.6,
+    "toronto_index_2017": 69.6,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2008,
+    "index_2017": 72.1,
+    "toronto_index_2017": 72.1,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2009,
+    "index_2017": 72.0,
+    "toronto_index_2017": 72.0,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2010,
+    "index_2017": 73.8,
+    "toronto_index_2017": 73.8,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2011,
+    "index_2017": 77.3,
+    "toronto_index_2017": 77.3,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2012,
+    "index_2017": 81.2,
+    "toronto_index_2017": 81.2,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2013,
+    "index_2017": 83.2,
+    "toronto_index_2017": 83.2,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2014,
+    "index_2017": 85.0,
+    "toronto_index_2017": 85.0,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2015,
+    "index_2017": 87.7,
+    "toronto_index_2017": 87.7,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2016,
+    "index_2017": 93.2,
+    "toronto_index_2017": 93.2,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2017,
+    "index_2017": 100.0,
+    "toronto_index_2017": 100.0,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2018,
+    "index_2017": 99.8,
+    "toronto_index_2017": 99.8,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2019,
+    "index_2017": 99.0,
+    "toronto_index_2017": 99.0,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2020,
+    "index_2017": 99.9,
+    "toronto_index_2017": 99.9,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2021,
+    "index_2017": 106.6,
+    "toronto_index_2017": 106.6,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2022,
+    "index_2017": 111.4,
+    "toronto_index_2017": 111.4,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2023,
+    "index_2017": 111.0,
+    "toronto_index_2017": 111.0,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2024,
+    "index_2017": 110.2,
+    "toronto_index_2017": 110.2,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2025,
+    "index_2017": 107.2,
+    "toronto_index_2017": 107.2,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2026,
+    "index_2017": 102.9,
+    "toronto_index_2017": 102.9,
+    "vs_toronto": 1.0
+   }
+  ],
+  "Oshawa": [
+   {
+    "year": 2016,
+    "index_2017": 96.7,
+    "toronto_index_2017": 93.2,
+    "vs_toronto": 1.038
+   },
+   {
+    "year": 2017,
+    "index_2017": 100.0,
+    "toronto_index_2017": 100.0,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2018,
+    "index_2017": 101.0,
+    "toronto_index_2017": 99.8,
+    "vs_toronto": 1.012
+   },
+   {
+    "year": 2019,
+    "index_2017": 100.1,
+    "toronto_index_2017": 99.0,
+    "vs_toronto": 1.011
+   },
+   {
+    "year": 2020,
+    "index_2017": 101.7,
+    "toronto_index_2017": 99.9,
+    "vs_toronto": 1.019
+   },
+   {
+    "year": 2021,
+    "index_2017": 113.0,
+    "toronto_index_2017": 106.6,
+    "vs_toronto": 1.061
+   },
+   {
+    "year": 2022,
+    "index_2017": 118.0,
+    "toronto_index_2017": 111.4,
+    "vs_toronto": 1.06
+   },
+   {
+    "year": 2023,
+    "index_2017": 117.6,
+    "toronto_index_2017": 111.0,
+    "vs_toronto": 1.059
+   },
+   {
+    "year": 2024,
+    "index_2017": 117.4,
+    "toronto_index_2017": 110.2,
+    "vs_toronto": 1.066
+   },
+   {
+    "year": 2025,
+    "index_2017": 115.1,
+    "toronto_index_2017": 107.2,
+    "vs_toronto": 1.074
+   },
+   {
+    "year": 2026,
+    "index_2017": 110.7,
+    "toronto_index_2017": 102.9,
+    "vs_toronto": 1.076
+   }
+  ],
+  "Hamilton": [
+   {
+    "year": 1981,
+    "index_2017": 31.3,
+    "toronto_index_2017": 30.3,
+    "vs_toronto": 1.032
+   },
+   {
+    "year": 1982,
+    "index_2017": 33.3,
+    "toronto_index_2017": 30.7,
+    "vs_toronto": 1.082
+   },
+   {
+    "year": 1983,
+    "index_2017": 34.8,
+    "toronto_index_2017": 29.5,
+    "vs_toronto": 1.18
+   },
+   {
+    "year": 1984,
+    "index_2017": 36.5,
+    "toronto_index_2017": 29.6,
+    "vs_toronto": 1.233
+   },
+   {
+    "year": 1985,
+    "index_2017": 38.5,
+    "toronto_index_2017": 30.4,
+    "vs_toronto": 1.264
+   },
+   {
+    "year": 1986,
+    "index_2017": 42.4,
+    "toronto_index_2017": 35.5,
+    "vs_toronto": 1.195
+   },
+   {
+    "year": 1987,
+    "index_2017": 49.6,
+    "toronto_index_2017": 44.8,
+    "vs_toronto": 1.107
+   },
+   {
+    "year": 1988,
+    "index_2017": 55.3,
+    "toronto_index_2017": 52.3,
+    "vs_toronto": 1.058
+   },
+   {
+    "year": 1989,
+    "index_2017": 60.0,
+    "toronto_index_2017": 63.9,
+    "vs_toronto": 0.938
+   },
+   {
+    "year": 1990,
+    "index_2017": 61.3,
+    "toronto_index_2017": 61.5,
+    "vs_toronto": 0.997
+   },
+   {
+    "year": 1991,
+    "index_2017": 57.7,
+    "toronto_index_2017": 52.2,
+    "vs_toronto": 1.105
+   },
+   {
+    "year": 1992,
+    "index_2017": 55.6,
+    "toronto_index_2017": 49.9,
+    "vs_toronto": 1.114
+   },
+   {
+    "year": 1993,
+    "index_2017": 54.2,
+    "toronto_index_2017": 48.7,
+    "vs_toronto": 1.112
+   },
+   {
+    "year": 1994,
+    "index_2017": 54.0,
+    "toronto_index_2017": 48.6,
+    "vs_toronto": 1.111
+   },
+   {
+    "year": 1995,
+    "index_2017": 53.3,
+    "toronto_index_2017": 48.9,
+    "vs_toronto": 1.091
+   },
+   {
+    "year": 1996,
+    "index_2017": 52.9,
+    "toronto_index_2017": 48.3,
+    "vs_toronto": 1.095
+   },
+   {
+    "year": 1997,
+    "index_2017": 55.0,
+    "toronto_index_2017": 49.4,
+    "vs_toronto": 1.114
+   },
+   {
+    "year": 1998,
+    "index_2017": 56.8,
+    "toronto_index_2017": 50.9,
+    "vs_toronto": 1.115
+   },
+   {
+    "year": 1999,
+    "index_2017": 57.3,
+    "toronto_index_2017": 51.8,
+    "vs_toronto": 1.106
+   },
+   {
+    "year": 2000,
+    "index_2017": 58.8,
+    "toronto_index_2017": 53.2,
+    "vs_toronto": 1.104
+   },
+   {
+    "year": 2001,
+    "index_2017": 60.0,
+    "toronto_index_2017": 54.5,
+    "vs_toronto": 1.1
+   },
+   {
+    "year": 2002,
+    "index_2017": 62.6,
+    "toronto_index_2017": 56.3,
+    "vs_toronto": 1.111
+   },
+   {
+    "year": 2003,
+    "index_2017": 66.5,
+    "toronto_index_2017": 59.0,
+    "vs_toronto": 1.128
+   },
+   {
+    "year": 2004,
+    "index_2017": 70.1,
+    "toronto_index_2017": 62.5,
+    "vs_toronto": 1.122
+   },
+   {
+    "year": 2005,
+    "index_2017": 74.0,
+    "toronto_index_2017": 65.3,
+    "vs_toronto": 1.134
+   },
+   {
+    "year": 2006,
+    "index_2017": 78.1,
+    "toronto_index_2017": 67.8,
+    "vs_toronto": 1.153
+   },
+   {
+    "year": 2007,
+    "index_2017": 81.6,
+    "toronto_index_2017": 69.6,
+    "vs_toronto": 1.173
+   },
+   {
+    "year": 2008,
+    "index_2017": 83.9,
+    "toronto_index_2017": 72.1,
+    "vs_toronto": 1.164
+   },
+   {
+    "year": 2009,
+    "index_2017": 83.0,
+    "toronto_index_2017": 72.0,
+    "vs_toronto": 1.153
+   },
+   {
+    "year": 2010,
+    "index_2017": 84.3,
+    "toronto_index_2017": 73.8,
+    "vs_toronto": 1.142
+   },
+   {
+    "year": 2011,
+    "index_2017": 85.0,
+    "toronto_index_2017": 77.3,
+    "vs_toronto": 1.101
+   },
+   {
+    "year": 2012,
+    "index_2017": 86.3,
+    "toronto_index_2017": 81.2,
+    "vs_toronto": 1.063
+   },
+   {
+    "year": 2013,
+    "index_2017": 88.5,
+    "toronto_index_2017": 83.2,
+    "vs_toronto": 1.063
+   },
+   {
+    "year": 2014,
+    "index_2017": 90.9,
+    "toronto_index_2017": 85.0,
+    "vs_toronto": 1.069
+   },
+   {
+    "year": 2015,
+    "index_2017": 93.8,
+    "toronto_index_2017": 87.7,
+    "vs_toronto": 1.07
+   },
+   {
+    "year": 2016,
+    "index_2017": 96.4,
+    "toronto_index_2017": 93.2,
+    "vs_toronto": 1.034
+   },
+   {
+    "year": 2017,
+    "index_2017": 100.0,
+    "toronto_index_2017": 100.0,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2018,
+    "index_2017": 101.3,
+    "toronto_index_2017": 99.8,
+    "vs_toronto": 1.014
+   },
+   {
+    "year": 2019,
+    "index_2017": 101.9,
+    "toronto_index_2017": 99.0,
+    "vs_toronto": 1.03
+   },
+   {
+    "year": 2020,
+    "index_2017": 104.9,
+    "toronto_index_2017": 99.9,
+    "vs_toronto": 1.05
+   },
+   {
+    "year": 2021,
+    "index_2017": 113.5,
+    "toronto_index_2017": 106.6,
+    "vs_toronto": 1.065
+   },
+   {
+    "year": 2022,
+    "index_2017": 113.9,
+    "toronto_index_2017": 111.4,
+    "vs_toronto": 1.023
+   },
+   {
+    "year": 2023,
+    "index_2017": 112.9,
+    "toronto_index_2017": 111.0,
+    "vs_toronto": 1.017
+   },
+   {
+    "year": 2024,
+    "index_2017": 111.6,
+    "toronto_index_2017": 110.2,
+    "vs_toronto": 1.013
+   },
+   {
+    "year": 2025,
+    "index_2017": 109.8,
+    "toronto_index_2017": 107.2,
+    "vs_toronto": 1.024
+   },
+   {
+    "year": 2026,
+    "index_2017": 106.0,
+    "toronto_index_2017": 102.9,
+    "vs_toronto": 1.03
+   }
+  ],
+  "Guelph": [
+   {
+    "year": 2016,
+    "index_2017": 96.5,
+    "toronto_index_2017": 93.2,
+    "vs_toronto": 1.035
+   },
+   {
+    "year": 2017,
+    "index_2017": 100.0,
+    "toronto_index_2017": 100.0,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2018,
+    "index_2017": 101.3,
+    "toronto_index_2017": 99.8,
+    "vs_toronto": 1.014
+   },
+   {
+    "year": 2019,
+    "index_2017": 102.1,
+    "toronto_index_2017": 99.0,
+    "vs_toronto": 1.031
+   },
+   {
+    "year": 2020,
+    "index_2017": 106.5,
+    "toronto_index_2017": 99.9,
+    "vs_toronto": 1.066
+   },
+   {
+    "year": 2021,
+    "index_2017": 117.2,
+    "toronto_index_2017": 106.6,
+    "vs_toronto": 1.1
+   },
+   {
+    "year": 2022,
+    "index_2017": 119.7,
+    "toronto_index_2017": 111.4,
+    "vs_toronto": 1.075
+   },
+   {
+    "year": 2023,
+    "index_2017": 119.0,
+    "toronto_index_2017": 111.0,
+    "vs_toronto": 1.071
+   },
+   {
+    "year": 2024,
+    "index_2017": 118.4,
+    "toronto_index_2017": 110.2,
+    "vs_toronto": 1.075
+   },
+   {
+    "year": 2025,
+    "index_2017": 117.3,
+    "toronto_index_2017": 107.2,
+    "vs_toronto": 1.095
+   },
+   {
+    "year": 2026,
+    "index_2017": 115.0,
+    "toronto_index_2017": 102.9,
+    "vs_toronto": 1.117
+   }
+  ],
+  "Kitchener-Waterloo": [
+   {
+    "year": 1981,
+    "index_2017": 33.7,
+    "toronto_index_2017": 30.3,
+    "vs_toronto": 1.113
+   },
+   {
+    "year": 1982,
+    "index_2017": 35.0,
+    "toronto_index_2017": 30.7,
+    "vs_toronto": 1.138
+   },
+   {
+    "year": 1983,
+    "index_2017": 36.8,
+    "toronto_index_2017": 29.5,
+    "vs_toronto": 1.249
+   },
+   {
+    "year": 1984,
+    "index_2017": 38.2,
+    "toronto_index_2017": 29.6,
+    "vs_toronto": 1.289
+   },
+   {
+    "year": 1985,
+    "index_2017": 41.6,
+    "toronto_index_2017": 30.4,
+    "vs_toronto": 1.367
+   },
+   {
+    "year": 1986,
+    "index_2017": 47.6,
+    "toronto_index_2017": 35.5,
+    "vs_toronto": 1.341
+   },
+   {
+    "year": 1987,
+    "index_2017": 54.4,
+    "toronto_index_2017": 44.8,
+    "vs_toronto": 1.215
+   },
+   {
+    "year": 1988,
+    "index_2017": 59.3,
+    "toronto_index_2017": 52.3,
+    "vs_toronto": 1.135
+   },
+   {
+    "year": 1989,
+    "index_2017": 65.4,
+    "toronto_index_2017": 63.9,
+    "vs_toronto": 1.024
+   },
+   {
+    "year": 1990,
+    "index_2017": 66.7,
+    "toronto_index_2017": 61.5,
+    "vs_toronto": 1.085
+   },
+   {
+    "year": 1991,
+    "index_2017": 61.6,
+    "toronto_index_2017": 52.2,
+    "vs_toronto": 1.178
+   },
+   {
+    "year": 1992,
+    "index_2017": 59.7,
+    "toronto_index_2017": 49.9,
+    "vs_toronto": 1.195
+   },
+   {
+    "year": 1993,
+    "index_2017": 60.2,
+    "toronto_index_2017": 48.7,
+    "vs_toronto": 1.235
+   },
+   {
+    "year": 1994,
+    "index_2017": 58.6,
+    "toronto_index_2017": 48.6,
+    "vs_toronto": 1.206
+   },
+   {
+    "year": 1995,
+    "index_2017": 58.2,
+    "toronto_index_2017": 48.9,
+    "vs_toronto": 1.19
+   },
+   {
+    "year": 1996,
+    "index_2017": 58.0,
+    "toronto_index_2017": 48.3,
+    "vs_toronto": 1.201
+   },
+   {
+    "year": 1997,
+    "index_2017": 58.5,
+    "toronto_index_2017": 49.4,
+    "vs_toronto": 1.185
+   },
+   {
+    "year": 1998,
+    "index_2017": 59.8,
+    "toronto_index_2017": 50.9,
+    "vs_toronto": 1.174
+   },
+   {
+    "year": 1999,
+    "index_2017": 60.9,
+    "toronto_index_2017": 51.8,
+    "vs_toronto": 1.175
+   },
+   {
+    "year": 2000,
+    "index_2017": 63.3,
+    "toronto_index_2017": 53.2,
+    "vs_toronto": 1.189
+   },
+   {
+    "year": 2001,
+    "index_2017": 65.2,
+    "toronto_index_2017": 54.5,
+    "vs_toronto": 1.196
+   },
+   {
+    "year": 2002,
+    "index_2017": 67.9,
+    "toronto_index_2017": 56.3,
+    "vs_toronto": 1.204
+   },
+   {
+    "year": 2003,
+    "index_2017": 70.1,
+    "toronto_index_2017": 59.0,
+    "vs_toronto": 1.189
+   },
+   {
+    "year": 2004,
+    "index_2017": 73.2,
+    "toronto_index_2017": 62.5,
+    "vs_toronto": 1.173
+   },
+   {
+    "year": 2005,
+    "index_2017": 76.9,
+    "toronto_index_2017": 65.3,
+    "vs_toronto": 1.178
+   },
+   {
+    "year": 2006,
+    "index_2017": 80.0,
+    "toronto_index_2017": 67.8,
+    "vs_toronto": 1.181
+   },
+   {
+    "year": 2007,
+    "index_2017": 81.3,
+    "toronto_index_2017": 69.6,
+    "vs_toronto": 1.168
+   },
+   {
+    "year": 2008,
+    "index_2017": 83.2,
+    "toronto_index_2017": 72.1,
+    "vs_toronto": 1.155
+   },
+   {
+    "year": 2009,
+    "index_2017": 83.7,
+    "toronto_index_2017": 72.0,
+    "vs_toronto": 1.164
+   },
+   {
+    "year": 2010,
+    "index_2017": 84.8,
+    "toronto_index_2017": 73.8,
+    "vs_toronto": 1.149
+   },
+   {
+    "year": 2011,
+    "index_2017": 87.3,
+    "toronto_index_2017": 77.3,
+    "vs_toronto": 1.13
+   },
+   {
+    "year": 2012,
+    "index_2017": 89.8,
+    "toronto_index_2017": 81.2,
+    "vs_toronto": 1.106
+   },
+   {
+    "year": 2013,
+    "index_2017": 90.4,
+    "toronto_index_2017": 83.2,
+    "vs_toronto": 1.087
+   },
+   {
+    "year": 2014,
+    "index_2017": 91.2,
+    "toronto_index_2017": 85.0,
+    "vs_toronto": 1.073
+   },
+   {
+    "year": 2015,
+    "index_2017": 92.8,
+    "toronto_index_2017": 87.7,
+    "vs_toronto": 1.058
+   },
+   {
+    "year": 2016,
+    "index_2017": 94.7,
+    "toronto_index_2017": 93.2,
+    "vs_toronto": 1.016
+   },
+   {
+    "year": 2017,
+    "index_2017": 100.0,
+    "toronto_index_2017": 100.0,
+    "vs_toronto": 1.0
+   },
+   {
+    "year": 2018,
+    "index_2017": 100.7,
+    "toronto_index_2017": 99.8,
+    "vs_toronto": 1.008
+   },
+   {
+    "year": 2019,
+    "index_2017": 102.4,
+    "toronto_index_2017": 99.0,
+    "vs_toronto": 1.035
+   },
+   {
+    "year": 2020,
+    "index_2017": 108.7,
+    "toronto_index_2017": 99.9,
+    "vs_toronto": 1.088
+   },
+   {
+    "year": 2021,
+    "index_2017": 135.4,
+    "toronto_index_2017": 106.6,
+    "vs_toronto": 1.27
+   },
+   {
+    "year": 2022,
+    "index_2017": 154.0,
+    "toronto_index_2017": 111.4,
+    "vs_toronto": 1.383
+   },
+   {
+    "year": 2023,
+    "index_2017": 153.0,
+    "toronto_index_2017": 111.0,
+    "vs_toronto": 1.378
+   },
+   {
+    "year": 2024,
+    "index_2017": 150.6,
+    "toronto_index_2017": 110.2,
+    "vs_toronto": 1.366
+   },
+   {
+    "year": 2025,
+    "index_2017": 150.2,
+    "toronto_index_2017": 107.2,
+    "vs_toronto": 1.402
+   },
+   {
+    "year": 2026,
+    "index_2017": 146.7,
+    "toronto_index_2017": 102.9,
+    "vs_toronto": 1.425
+   }
+  ]
+ },
+ "ripple": [
+  {
+   "city": "Toronto",
+   "best_lag_months": 0,
+   "max_corr": 1.0
+  },
+  {
+   "city": "Oshawa",
+   "best_lag_months": 1,
+   "max_corr": 0.955,
+   "growth_2017_2026": 10.7,
+   "growth_2017_2021": 13.0,
+   "growth_2021_2026": -2.1,
+   "growth_2000_2010": null,
+   "growth_2010_2020": null
+  },
+  {
+   "city": "Hamilton",
+   "best_lag_months": 6,
+   "max_corr": 0.866,
+   "growth_2017_2026": 6.0,
+   "growth_2017_2021": 13.5,
+   "growth_2021_2026": -6.6,
+   "growth_2000_2010": 43.4,
+   "growth_2010_2020": 24.5
+  },
+  {
+   "city": "Guelph",
+   "best_lag_months": 5,
+   "max_corr": 0.924,
+   "growth_2017_2026": 15.0,
+   "growth_2017_2021": 17.2,
+   "growth_2021_2026": -1.9,
+   "growth_2000_2010": null,
+   "growth_2010_2020": null
+  },
+  {
+   "city": "Kitchener-Waterloo",
+   "best_lag_months": 1,
+   "max_corr": 0.919,
+   "growth_2017_2026": 46.7,
+   "growth_2017_2021": 35.4,
+   "growth_2021_2026": 8.4,
+   "growth_2000_2010": 33.9,
+   "growth_2010_2020": 28.2
+  }
+ ]
+}
