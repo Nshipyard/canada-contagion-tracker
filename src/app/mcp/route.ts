@@ -4,7 +4,7 @@ import { getData, lookupCity, citySeries } from "@/lib/contagion";
 // Minimal MCP server over streamable HTTP (JSON-RPC 2.0 via POST).
 // Supports: initialize, tools/list, tools/call. Stateless.
 
-const SERVER = { name: "canada-contagion-tracker", version: "1.0.0" };
+const SERVER = { name: "canada-price-wave", version: "1.0.0" };
 
 const TOOLS = [
   {
@@ -35,9 +35,9 @@ const TOOLS = [
     },
   },
   {
-    name: "contagion_summary",
+    name: "price_wave_summary",
     description:
-      "Headline findings of the contagion test: which corridor cities outran Toronto since 2017, cycle synchrony and leads, and the explicit data gaps (no resale levels, no Barrie/Brantford NHPI coverage).",
+      "Headline findings of the price-wave analysis: which corridor cities outran Toronto since 2017, cycle synchrony and leads, and the explicit data gaps (no resale levels, no Barrie/Brantford NHPI coverage).",
     inputSchema: { type: "object", properties: {} },
   },
 ];
@@ -81,7 +81,7 @@ function handle(msg: any) {
         if (!rec) return err(id, -32602, "Unknown city_id or no NHPI coverage");
         return ok(id, textResult(rec));
       }
-      if (name === "contagion_summary") {
+      if (name === "price_wave_summary") {
         const d = getData();
         const summary = {
           headline:

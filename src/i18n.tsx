@@ -56,7 +56,7 @@ const en = {
       },
       {
         title: "The boom was a corridor boom",
-        body: "From 2017 to 2021, Kitchener-Waterloo gained 35.4%, Guelph 17.2%, Hamilton 13.5% and Oshawa 13.0%, all ahead of Toronto's 6.6%. The 2021-2026 correction then bit the corridor harder: Hamilton -6.6%, the rest near flat. Contagion cuts both ways.",
+        body: "From 2017 to 2021, Kitchener-Waterloo gained 35.4%, Guelph 17.2%, Hamilton 13.5% and Oshawa 13.0%, all ahead of Toronto's 6.6%. The 2021-2026 correction then bit the corridor harder: Hamilton -6.6%, the rest near flat. The wave cuts both ways.",
       },
       {
         title: "Toronto is flat since 2017",
@@ -88,7 +88,7 @@ const en = {
     tryIt: "Try it",
     openapi: "OpenAPI spec",
     mcpTitle: "MCP server",
-    mcpBody: "One streamable-HTTP endpoint. Tools: city_lookup, ripple_series, contagion_summary.",
+    mcpBody: "One streamable-HTTP endpoint. Tools: city_lookup, ripple_series, price_wave_summary.",
   },
   mcp: {
     kicker: "Connect your agent",
@@ -182,7 +182,7 @@ const fr: Dict = {
       },
       {
         title: "L'essor était celui du corridor",
-        body: "De 2017 à 2021, Kitchener-Waterloo a gagné 35,4 %, Guelph 17,2 %, Hamilton 13,5 % et Oshawa 13,0 %, tous devant les 6,6 % de Toronto. La correction de 2021-2026 a ensuite frappé le corridor plus fort : Hamilton -6,6 %, les autres presque stables. La contagion frappe dans les deux sens.",
+        body: "De 2017 à 2021, Kitchener-Waterloo a gagné 35,4 %, Guelph 17,2 %, Hamilton 13,5 % et Oshawa 13,0 %, tous devant les 6,6 % de Toronto. La correction de 2021-2026 a ensuite frappé le corridor plus fort : Hamilton -6,6 %, les autres presque stables. La vague frappe dans les deux sens.",
       },
       {
         title: "Toronto est stable depuis 2017",
@@ -214,7 +214,7 @@ const fr: Dict = {
     tryIt: "Essayer",
     openapi: "Spécification OpenAPI",
     mcpTitle: "Serveur MCP",
-    mcpBody: "Un point de terminaison HTTP continu. Outils : city_lookup, ripple_series, contagion_summary.",
+    mcpBody: "Un point de terminaison HTTP continu. Outils : city_lookup, ripple_series, price_wave_summary.",
   },
   mcp: {
     kicker: "Connectez votre agent",

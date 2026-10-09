@@ -64,8 +64,8 @@ export default function Developers() {
         <div className="mt-8">
           <McpConnect
             config={{
-              slug: "contagion",
-              displayName: "Canada Housing Contagion Tracker",
+              slug: "price-wave",
+              displayName: "The Price Wave",
               exampleEn: "look up the Kitchener-Waterloo ripple record",
               exampleFr: "cherche la fiche de vague de Kitchener-Waterloo",
             }}

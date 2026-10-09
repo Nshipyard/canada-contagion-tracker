@@ -1,8 +1,8 @@
-# Canada Housing Contagion Tracker
+# The Price Wave
 
-Tests the **Patient Zero** thesis: Toronto's unaffordability ripples outward. When Toronto prices out a nurse, she moves to Hamilton. Hamilton gets expensive. The wave rolls on to Brantford. This site measures that wave against 45 years of new-housing prices across seven corridor cities.
+Tests the thesis that Toronto's unaffordability ripples outward. When Toronto prices out a nurse, she moves to Hamilton. Hamilton gets expensive. The wave rolls on to Brantford. This site measures that wave against 45 years of new-housing prices across seven corridor cities.
 
-**Live:** https://contagion.canada.nshipyard.com
+**Live:** https://pricewave.canada.nshipyard.com
 
 ## What the ripple shows
 

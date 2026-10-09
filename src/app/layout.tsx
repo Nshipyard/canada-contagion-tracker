@@ -8,7 +8,7 @@ import "./globals.css";
 import { LangProvider } from "@/i18n";
 
 export const metadata: Metadata = {
-  title: "Housing Contagion Tracker: Toronto's unaffordability ripples outward",
+  title: "The Price Wave: Toronto's unaffordability ripples outward",
   description:
     "Kitchener-Waterloo new-home prices rose 46.7% since 2017 against Toronto's 2.9%. Track the unaffordability wave across seven corridor cities, 1981-2026. Open data, MIT licensed.",
 };
