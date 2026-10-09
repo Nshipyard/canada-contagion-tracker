@@ -44,7 +44,13 @@ npm run build    # production build
 
 ## Screenshots
 
-Screenshots live in `docs/screenshots/` (desktop 1440px + mobile 390px, EN and FR).
+![Desktop (EN)](docs/screenshots/desktop-en.png)
+
+![Desktop (FR)](docs/screenshots/desktop-fr.png)
+
+![Mobile (EN)](docs/screenshots/mobile-en.png)
+
+![Mobile (FR)](docs/screenshots/mobile-fr.png)
 
 ## Author
 
