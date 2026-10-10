@@ -6,6 +6,7 @@ import "@fontsource/inter/500.css";
 import "@fontsource/inter/600.css";
 import "./globals.css";
 import { LangProvider } from "@/i18n";
+import { PosthogProvider } from "../components/PosthogProvider";
 
 export const metadata: Metadata = {
   title: "The Price Wave: Toronto's unaffordability ripples outward",
@@ -16,9 +17,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className="h-full antialiased">
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex flex-col"><PosthogProvider>
         <LangProvider>{children}</LangProvider>
-      </body>
+      </PosthogProvider></body>
     </html>
   );
 }
